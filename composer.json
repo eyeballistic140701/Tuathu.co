@@ -1,0 +1,19 @@
+{
+  "name": "ramsey/glitch-php",
+  "description": "A testing playground for using PHP on Glitch.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Ramsey",
+      "email": "ben@benramsey.com",
+      "homepage": "https://benramsey.com"
+    }
+  ],
+  "require": {
+    "php": "^7",
+    "ramsey/uuid": "^3.8"
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:8080"
+  }
+}
